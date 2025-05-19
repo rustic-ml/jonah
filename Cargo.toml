@@ -1,0 +1,25 @@
+[package]
+name = "rust_crate"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple Rust library crate"
+license = "MIT"
+repository = "https://github.com/rustic-ml/jonah"
+readme = "README.md"
+keywords = ["example", "library", "rust"]
+categories = ["development-tools"]
+
+# Files and patterns to exclude when publishing to crates.io
+exclude = [
+    "tests/*",
+    "examples/*",
+    "benches/*",
+    "*.log",
+    ".github/",
+    ".gitignore",
+    "assets/",
+    "docs/"
+]
+
+[dependencies]
