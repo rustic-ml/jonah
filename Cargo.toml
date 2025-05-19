@@ -19,7 +19,8 @@ exclude = [
     ".github/",
     ".gitignore",
     "assets/",
-    "docs/"
+    "docs/",
+    "Cargo.lock"
 ]
 
 [dependencies]
